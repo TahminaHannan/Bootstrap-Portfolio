@@ -13,7 +13,6 @@ margin: 0 auto;
 .customNav {
 position: fixed;
 width: 100%;
-background: url(https://i.redd.it/ccz3fco5ozf71.jpg);
 background-color: transparent !important;
 background-size: cover;
 z-index: 10;
@@ -27,7 +26,7 @@ z-index: 10;
 
 .jumbotron {
   height: calc(60vh - 80px);
-  background-image: url(../images/02-hero-bg.jpg);
+  background-color: pink;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -52,15 +51,16 @@ z-index: 10;
 }
 
 h1 {
-  color: pink;
+  color: #31343d;
 }
 
 h2, h4{
   text-align: center;
+  color: #31343d;
 }
 
 p {
-  color: white;
+  color: #31343d;
 }
 
 .signUp form {
@@ -79,9 +79,14 @@ p {
 }
 
 .contact-info ul li {
-   border-bottom: 2px solid #31343d;
+   border-bottom: 1px solid #31343d;
   margin: 5px 28px;
   align-self: center;
   justify-content:center;
+}
+
+.progress {
+  margin: 20px;
+  
 }
 
