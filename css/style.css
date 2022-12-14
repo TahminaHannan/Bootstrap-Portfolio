@@ -1,28 +1,9 @@
 /*General*/
 
-.cardContainer {
-  margin-top: 10px;
-  text-align: center;
-}
-
-.card {
-margin: 0 auto;
-}
-
-
-.customNav {
-position: fixed;
-width: 100%;
-background-color: transparent !important;
-background-size: cover;
-z-index: 10;
-}
-
-
 .navbar-nav {
   margin-left: auto;
   margin-right: 0 !important;
-}
+    }
 
 .jumbotron {
   height: calc(60vh - 80px);
@@ -32,7 +13,6 @@ z-index: 10;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .jumboCopy {
@@ -46,15 +26,11 @@ z-index: 10;
   padding: 60px;
 }
 
-.sectionHeading {
-  text-align: center;
-}
-
 h1 {
   color: #31343d;
 }
 
-h2, h4{
+h2, h3{
   text-align: center;
   color: #31343d;
 }
@@ -62,6 +38,27 @@ h2, h4{
 p {
   color: #31343d;
 }
+
+/* Card/portfolio deck */
+.card-deck {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cardContainer {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.card {
+margin: 0 auto;
+}
+
+
+.progress {
+  margin: 20px;
+}
+
 
 .signUp form {
   margin: 35px auto;
@@ -76,17 +73,112 @@ p {
   font-size: 22px;
   list-style: none;
   display: inline-flex;
-}
+  }
 
 .contact-info ul li {
-   border-bottom: 1px solid #31343d;
-  margin: 5px 28px;
-  align-self: center;
-  justify-content:center;
+    margin: 5px 60px 5px 60px;
+    padding-left: 10%;
 }
 
-.progress {
-  margin: 20px;
+
+
+/* Media Query for normal desktop viewport */
+@media screen and (max-width: 1200px) {
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+      }
+  
+  .jumbotron {
+    height: calc(60vh - 80px);
+    background-color: pink;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+  }
+  .content {
+    padding: 60px;
+  }
+  
+  h1 {
+    color: #31343d;
+  }
+  
+  h2, h3{
+    text-align: center;
+    color: #31343d;
+  }
+  
+  p {
+    color: #31343d;
+  }
+  
+  /* Card/portfolio deck */
+  .card-deck {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .cardContainer {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .card {
+  margin: 0 auto;
+  }
+  
+  
+  .progress {
+    margin: 20px;
+  }
+  
+  
+  .signUp form {
+    margin: 35px auto;
+    background-color:#f2f2f2;
+    padding: 20px 200px;
+    border-radius:5px;
+  }
+  
+  /* Contact section */
+  .contact-info ul, a {
+    color: #31343d;
+    font-size: 22px;
+    list-style: none;
+    display: inline-flex;
+    }
+  
+  .contact-info ul li {
+      margin: 5px 60px 5px 60px;
+      padding-left: 10%;
+  }
   
 }
 
+/* Media Query for smaller desktop */
+@media screen and (max-width: 980px) {
+
+
+
+}
+
+/* Media Query for Tablets and smaller */
+@media screen and (max-width: 979px) {
+ 
+}
+
+/* Media Query for Mobile phones*/
+@media screen and (max-width: 769px) {
+ 
+} 
